@@ -49,3 +49,5 @@ export function estimationCostFromTime (config : estimationCostFromTimeInterface
     }
     return merge(costBase, {finalCost})
 }
+
+export default { estimationCostFromTime };
